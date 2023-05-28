@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>weather webapplication</title>
+    <link rel="stylesheet" href="../myproject/dashboard.css">
+    <link rel="stylesheet" href="../myproject/dashboard.js">
+    <script src="../myproject/dashboard.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="main">
+      <ul>
+        <li><a href="../myproject/home.html">Home</a></li>
+        <li><a href="../myproject/dashboard.html">Dashboard</a></li>
+        <li><a href="../myproject/map.html">Maps</a></li>
+        <li><a href="../myproject/about.html">About us</a></li>
+        <li><a href="../myproject/contact.html">Contact</a></li>
+        <li><a href="../myproject/login.html">Logout</a></li>
+      </ul>
+      <div class="cloud">
+        <img src="../myproject/Cloud-sunny.png">
+      </div>
+    </div>
+  </header>
+    <!--I display all details inside the card-->
+    <div class="card">
+        
+        <div class="search box">
+            <input type="text" class="search-bar" placeholder="Enter a city">
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
+         </div>
+
+         <div class="weather loading">
+            <h1 class="city">weather in Gooty</h1>
+              <h1 class="temp">24°c</h1>
+              <div class="flex">
+
+                <img src="http://openweathermap.org/img/wn/04d@2x.png" alt="" class="icon" />
+            <div class="description">sunny</div>
+              </div>
+            <div class="humidity">Humidity: 44%</div>
+            <div class="wind">wind speed: 5.4 km/h</div>
+         </div>
+    </div>
+    <footer>
+      <div id="last">Copyright &copy; GATES Weather webapplication.com All rights reserved!</div>
+    </footer>
+</body>
+</html>
